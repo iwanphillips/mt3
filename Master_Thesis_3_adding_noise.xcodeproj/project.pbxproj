@@ -23,6 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D7552022258A6DB400E7C8AF /* noise.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = noise.h; sourceTree = "<group>"; };
+		D75E55F4257FF2B500E85FBD /* system.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = system.h; sourceTree = "<group>"; };
+		D75FA9CC25A4EE1E006D1E84 /* int_method.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = int_method.h; sourceTree = "<group>"; };
+		D76409F025A8EFB10031AF71 /* anna_noise.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = anna_noise.h; sourceTree = "<group>"; };
 		D76D5A392571536100DAB549 /* Master_Thesis_3_adding_noise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Master_Thesis_3_adding_noise; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76D5A3C2571536100DAB549 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				D76D5A3C2571536100DAB549 /* main.cpp */,
+				D75E55F4257FF2B500E85FBD /* system.h */,
+				D7552022258A6DB400E7C8AF /* noise.h */,
+				D75FA9CC25A4EE1E006D1E84 /* int_method.h */,
+				D76409F025A8EFB10031AF71 /* anna_noise.h */,
 			);
 			path = Master_Thesis_3_adding_noise;
 			sourceTree = "<group>";
@@ -240,6 +248,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,6 +258,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
